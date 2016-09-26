@@ -9,13 +9,55 @@ body
 }
 #maincontent
 {  
-  width: 78%;  
+  width: 100%;  
   float: right;
+  border: #48f solid 3px;
+}
+div.content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
 }
 #navigation
 {  
-  width: 20%;
+  width: 100%;
   float: left;  
+}
+ol#menu
+{
+  height: 2em;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol#menu li 
+{
+  background: url(img/tabs.gif);
+  float: left;
+  margin: 0 1px 0 0;
+  padding-left: 10px;
+  //border: dashed thin;
+}
+ol#menu a 
+{
+  background: url(img/tabs.gif) 100% 0;
+  color: #008;
+  float: left;
+  line-height: 2em;
+  padding-right: 10px;
+  text-decoration: none;
+  //border: dashed thin;
+}
+ol#menu li.current 
+{
+    background-color: #48f;
+    background-position: 0 -60px;
+}
+ol#menu li.current a 
+{
+    background-position: 100% -60px;
+    color: #fff;
+    font-weight: bold;
 }
 #header
 {  
@@ -31,7 +73,6 @@ body
   width: 68%;  
   float: left;  
 }
-
 #secondary
 {  
   width: 30%;  
