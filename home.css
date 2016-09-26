@@ -1,6 +1,6 @@
 *
 {
- //border: dashed thin;
+  //border: dashed thin;
 }
 body
 {
@@ -9,12 +9,13 @@ body
 }
 #maincontent
 {  
-  width: 80%;  
+  width: 78%;  
   float: right;
 }
 #navigation
 {  
-  width: 18%; 
+  width: 20%;
+  float: left;  
 }
 #header
 {  
