@@ -9,14 +9,12 @@ body
 }
 #maincontent
 {  
-  width: 100%;  
+  width: 78%;  
   float: right;
-  padding: 2%;
-  border: blue solid 1px;
 }
 #navigation
 {  
-  width: 100%;
+  width: 20%;
   float: left;  
 }
 #header
@@ -39,30 +37,3 @@ body
   width: 30%;  
   float: right;
 }
-
-ul#menu 
-{
-  margin: 0;
-  padding: 0;
-}
-
-ul#menu li 
-{
-  line-height: 2em;
-  display:inline; 
-  padding-right: .5em;
-  padding-left: .5em;
-}
-
-ul#menu a
-{
-  text-decoration: none;
-}
-
-ul#menu li.current a 
-{
-  background: blue;
-  padding: .5em 2em .5em 2em;
-  color:white;
-}
-
